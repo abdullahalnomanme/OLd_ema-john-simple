@@ -1,0 +1,26 @@
+.product {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+.product-name {
+    color: blue;
+    font-weight: 400;
+    font-size: 20px;
+}
+.main-btn {
+    background-color: #daa520;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 10px;
+}
+button.main-btn:focus {
+    outline: none;
+}
